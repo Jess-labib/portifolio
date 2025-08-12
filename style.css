@@ -1,0 +1,251 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 20px;
+}
+
+header img {
+ 
+}
+
+body {
+    background-color: #3B2335;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #F3EAFC;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.titulo {
+    color: #afb5e8;
+}
+
+
+p {
+    font-family: "Inter", sans-serif;
+    color: #F3EAFC;
+}
+
+li {
+    font-family: "Inter", sans-serif;
+    color: #F3EAFC;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+}
+
+.menu  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li a {
+    padding: 10px;
+    color: #F3EAFC;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.menu li a:hover, .email:hover {
+    color: #b1b1d8;
+    text-shadow: #f7b7e7  0px 0px 20px;
+}
+
+.menu img {
+    width: 200px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #774069;
+    min-height: calc(100vh - 119px);
+}
+
+.sobre img {
+    width: 700px;
+}
+
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    background-color: #774069;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.its_me {
+    width: 650px;
+}
+
+.linkedin {
+    width: 40px;
+}
+
+.email{
+    text-decoration: none;
+    color:#F3EAFC;
+    transition: all 0.3s;
+}
+.info_contato button {
+    padding: 15px;
+    background-color: #3B2335;
+    color: #F3EAFC;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 0;
+    font-size: 16px;
+    box-shadow: #3B2335 -2px 2px 20px 0px;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info_contato button:hover {
+    background-color: #581e4a;
+    box-shadow: #581e4a -2px 2px 20px 0px;
+}
+
+.container-button {
+   display: flex;
+   align-items: center;  
+   gap: 20px;
+}
+
+.curriculo {
+    width: 24px;
+}
+
+.postit {
+    background-color: #4e2543 ;
+    padding: 20px 25px;
+    display: inline-block;
+    width: 380px;
+    position: relative;
+}
+
+.postit ul {
+    padding-left: 25px;
+    margin: 0;
+    list-style-image: url(img/check.svg);
+}
+
+.postit:last-child ul {
+       list-style-image: url(img/heart.svg);
+}
+
+.postit:first-child {
+    align-self: flex-start;
+}
+
+.postit h2 {
+    margin: 0 0 16px 0;
+}
+
+.postit li {
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+
+.postit::after {
+    content:"";
+    border-left: 20px solid #662857;
+    border-right: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    display: block;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    transform: rotate(45deg);
+}
+
+.postits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: 10vh 0;
+
+}
+
+.postit img {
+    position:absolute;
+    width: 50px;
+    right: -15px;
+    top: -15px;
+}
+
+.experiencia {
+    padding: 35px 0;
+    display: flex;
+    gap: 16px;
+}
+
+.experiencia h4 {
+    flex-shrink: 0;
+    margin: 0;
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+}
+
+.linha {
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #F3EAFC;
+    margin-top: 13px;
+}
+
+.texto h3 {
+    margin-top: 0;
+
+}
+
+.carreira, .skills {
+    padding: 0 20%;
+}
+
+.skills {
+    display: flex;
+    flex-flow: column;
+    background-color: #662857;
+    padding-top: 70px;
+}
+
+
+.carreira {
+    padding-top: 70px;
+
+}
+.espaco {
+    margin-bottom: 100px;
+}
